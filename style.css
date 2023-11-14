@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(214, 241, 248) ;
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 12vh;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  select,
+input {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+
+.logo{
+  color: orangered;
+  font-weight: 700;
+  font-size: medium;
+  font-style: italic;
+}
+
+.search{
+    border:1px solid  rgba(0, 0, 0, 0.1);
+    height: 34px;
+    padding:0 10px ;
+    border-radius: 50px;
+    flex: .5;
+}
+
+.search i{
+    width: 30%;
+}
+
+.search input{
+    width: 100%;
+    padding-left: 20px;
+    height: 100%;
+}
+
+.search select{
+   height: 100%;
+    width: 50%;
+    border-left:1px solid rgba(0, 0, 0, .1) ;
+}
+
+.icon i {
+   width: 40px;
+   height: 40px;
+   background: rgb(189, 205, 219);
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50%;
+   cursor: pointer;
+   
+}
+.icon{
+    position: relative;
+}
+
+.icon span{
+    position: absolute;
+    top: -9px;
+    right: 1px;
+    background-color: orangered;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: white;
+}
+
+
+.nav-select{
+    background: rgb(189, 214, 236);
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.containerr{
+    padding:0 50px ;
+}
+
+.containerr li {
+    margin-right: 10px;
+    list-style: none;
+}
+
+.containerr a{
+    text-decoration: none;
+    color: black;
+}
+
+.containerr a:hover{
+    color: crimson;
+}
+
+nav span {
+    text-align: center;
+    display: none !important;
+
+}
+
+
+/* @media screen and (max-width: 768px) {
+    nav ul{
+        position: absolute;
+        top: 15%;
+        left: 0;
+        background: aliceblue;
+        
+        transition: max-height .5s;
+        z-index: 100;
+
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a {
+        color: black;
+        display: block;
+        cursor: pointer;
+    }
+} */
+
+.home-product{
+    background-color: rgb(214, 241, 248);
+}
+.home-product  img {
+    width: 80%;
+    margin: auto;
+}
+
+.home-product p{
+    color: gray;
+    cursor: pointer;
+}
+
+.home-product span{
+    font-size: 32px;
+    font-weight: 600;
+    color: orangered;
+}
+
+.home-product h5{
+    font-size: 14px;
+    font-weight: 600px;
+    width: 76px;
+    padding-bottom: 3px;
+    border-bottom: solid 3px red ;
+    cursor: pointer;
+}
+
+.card {
+    border: none;
+}
+.card2 ,.card3{
+    border-radius: 5px;
+}
+
+.card2 img , .card3 img {
+    width: 90% !important;
+}
+
+@media (max-width: 1023px){
+  header{
+    margin: 0 10px ;
+    padding: 0 10px;
+  }
+} 
+
+.offer .card1{
+   border-radius: 10px;
+
+    text-align: center;
+}
+
+.offer .card1 i{
+    font-size: 50px;
+  color: #E94560;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+
+}
+
+.offer .card2{
+    border-radius: 10px;
+         padding-bottom:24px ;
+     text-align: center;
+ }
+
+.offer .card2 i{
+    font-size: 50px;
+  color: #E94560;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+
+}
+
+.offer .card3 .text{
+    text-align: left;
+}
+
+.offer .card3 .text h5 ,.card3 .text p{
+    color: gray;
+}
+
+.offer .card3 span {
+    color: orangered;
+}
+
+.offer .card3{
+    padding-bottom:39px ;
+    border-radius: 10px;
+}
+
+@media (max-width:1023px){
+    .offer .card1 , .offer .card2 , .offer .card3{
+        margin-bottom: 10px;
+    }
+}
+
+.newsletter i{
+    font-size: 30px;
+
+}
+
+.newsletter h2{
+    font-weight: 700px !important;
+}
+.newsletter p{
+    color: gray;
+}
+
+.input-data{
+    border-radius: 10px;
+}
+
+.input-data input{
+   padding-left: 10px;
+    
+   
+}
+
+
+.newsletter button{
+    border: none;
+    background: orangered;
+    color: white;
+    padding:5px 10px ;
+    border-radius: 5px;
+}
+
+
+footer ul li {
+    list-style: none;
+   
+}
+
+.item  {
+    color: gray;
+}
+
+.item h3{
+    color: white;
+    padding-left: 20px;
+}
+
+footer .icon{
+    padding-left: 20px; 
+}
+footer .icon i {
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    
+  }
+
+ 
+
+  .heading a{
+ text-decoration: none;
+  color: black;
+  }
+  
+
+  .heading a:hover{
+    color: orangered;
+  }
+
+ .heading h2 i {
+    color: orangered;
+ }
+
+
+ .offer-num{
+    background-color: orangered;
+    height: 30px;
+    border-radius: 50px;
+    padding:5px;
+    display: flex !important;
+    text-align: center;
+
+ }
+
+ .item{
+    cursor: pointer;
+
+ }
+
+ .star {
+    color: yellow;
+ }
+
+ .price{
+    font-size: 20px;
+ }
+
+ .price i{
+    color: black;
+    font-size: medium;
+    font-weight: 700;
+ }
+
+
+ .item .icons span {
+    color: white;
+   
+ }
+
+ .price span{
+    color: orangered;
+ }
+
+ .price label{
+    margin-left: 15px;
+ }
+
+
+ .view {
+    opacity: 0;
+ }
+  
+
+ .item:hover .view{
+    opacity: 1;
+ }
+
+
+
+.item img{
+    width: 50%;
+}
+
+  
+

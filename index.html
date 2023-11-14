@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> product page</title>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+    integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"
+    integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+
+
+  <!-- OwlCarouse css 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+ OwlCarouse css -->
+
+  <!-- jquery   
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+jquery   -->
+
+
+</head>
+
+<body>
+  <div class="head py-2  bg-white" id="head">
+
+    <div class="container-head d-flex justify-content-between align-items-center px-5">
+      <div class="logo">
+        <h2> Sadioo Shop</h2>
+      </div>
+
+      <div class="search bg-white d-flex justify-content-between align-items-center ">
+        <i class="fas fa-search "></i>
+        <input type="text" placeholder="Search and hit enter">
+
+        <select>
+          <option>All Category </option>
+          <option>Fashion </option>
+          <option>Electronics </option>
+          <option>Home & Garden </option>
+          <option>Gifts </option>
+          <option>Music </option>
+          <option>Health & Beauty </option>
+          <option>Pets </option>
+          <option>Baby Toys </option>
+        </select>
+
+      </div>
+
+      <div class="account">
+        <div class="icon">
+          <i class="far fa-user"></i>
+          <i class="fas fa-shopping-bag"></i>
+          <span>4</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav>
+
+    <div class="containerr d-flex justify-content-between align-items-center bg-white">
+
+      <select class="px-3 mb-2  nav-select">
+        <option value="">All Category</option>
+        <option value="">Fashion</option>
+        <option value="">Electronics</option>
+        <option value="">Home & Garden</option>
+        <option value="">Gifts</option>
+        <option value="">Music</option>
+        <option value="">Health & Beauty</option>
+        <option value="">Pets</option>
+        <option value="">Baby Toys</option>
+      </select>
+
+      <ul class="d-flex" id="menuitem">
+        <li><a href="Home">Home</a></li>
+        <li><a href="">Product</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Account</a></li>
+
+      </ul>
+
+
+    </div>
+    <span class="fa fa-bars" onclick="menutoggle()"></span>
+
+  </nav>
+
+  <header id="Home" class="home-product  ">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-4 mt-3 ">
+          <div class="card pb-5">
+            <img src="photo/home1.png" class="mb-5" alt="">
+            <div class="cont ms-4">
+              <p>SPECIAL OFFER</p>
+              <span>Comfortable</span>
+              <h2>Original Cotton <br> Sneaker</h2>
+
+              <p>Lorem ipsum dolor sit, um corrupti ab fugiat illo voluptatem possimus repellendus porro
+                quaerat ex!
+
+              </p>
+
+              <h5>SHOP NOW</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8 mt-3">
+          <div class="card2 bg-white d-flex justify-content-center p-4">
+            <div class="img pt-4">
+              <img src="photo/home2.png" alt="">
+            </div>
+            <div class="cont pb-5">
+              <p>SPECIAL OFFER</p>
+              <h2><span>Minimalist </span>Genuine Cotton<br> Jacket</h2>
+
+              <p>Lorem ipsum dolor sit, um corrupti ab fugiat illo voluptatem possimus repellendus porro
+                quaerat ex!
+
+              </p>
+
+              <h5>SHOP NOW</h5>
+            </div>
+          </div>
+
+          <div class="card3 bg-white d-flex justify-content-center p-4 mt-3">
+
+            <div class="cont">
+              <p>SPECIAL OFFER</p>
+              <h2><span>Stylish </span>Genuine Comfy T-<br> Shirts</h2>
+
+              <p>Lorem ipsum dolor sit, um corrupti ab fugiat illo voluptatem possimus repellendus porro
+                quaerat ex!
+
+              </p>
+
+              <h5>SHOP NOW</h5>
+            </div>
+            <div class="img">
+              <img src="photo/home3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+
+  <section class="offer my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 ">
+          <div class="card1 bg-white py-5 ">
+            <i class="far fa-id-card "></i>
+            <h3>Secure Payment</h3>
+            <p>100% secured payment & privacy</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card2 bg-white pt-5">
+            <i class="far fa-comment-alt"></i>
+            <h3>Great Feedback </h3>
+            <p>More than 97% positive & happy customers</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card3 d-flex justify-content-between bg-white pt-5 ps-4">
+            <div class="text pt-4 ">
+              <h5>SEPECIAL OFFER</h5>
+              <h2> <span>$100 Off </span> over<br> $1200 </h2>
+              <p>More than 97% positive & happy customers</p>
+            </div>
+            <div class="img">
+              <img src="photo/home4.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    
+ 
+
+
+   
+
+
+
+
+
+
+
+  <section class="flash-dash">
+  
+    <div class="container ">
+      <div class="heading flex1 d-flex justify-content-between align-items-center">
+        <h2><i class="fas fa-bolt"></i> flash Deals</h2>
+        <a href="#">View all <i class="fas fa-caret-right"></i></a>
+      </div>
+    
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+       
+        <div class="swiper-slide  ">
+          <div class="item bg-white  p-2  ">
+            <div class="icons d-flex justify-content-between ">
+             <div class="offer-num">
+               <span>50% off</span>
+             </div>
+             <div class="view">
+               
+               <i class="fas fa-eye"></i> <br>
+               <i class="far fa-heart"></i>
+             </div>
+            </div>
+         
+            <img src="photo/t2.png" alt="">
+            <div class="text">
+             <h5>Smart Watch Black</h5>
+             <div class="star flex">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="far fa-star"></i>
+             </div>
+             <div class="price d-flex justify-content-between">
+               <p><span>$110.00</span>  <label> $250.00</label></p>
+               <i class="fas fa-plus "></i>
+             </div>
+            </div>
+           </div>
+        </div>
+        <div class="swiper-slide  ">
+          <div class="item bg-white  p-2  ">
+            <div class="icons d-flex justify-content-between ">
+             <div class="offer-num">
+               <span>50% off</span>
+             </div>
+             <div class="view">
+               
+               <i class="fas fa-eye"></i> <br>
+               <i class="far fa-heart"></i>
+             </div>
+            </div>
+         
+            <img src="photo/t7.png" alt="">
+            <div class="text">
+             <h5>Smart Watch Black</h5>
+             <div class="star flex">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="far fa-star"></i>
+             </div>
+             <div class="price d-flex justify-content-between">
+               <p><span>$110.00</span>  <label> $250.00</label></p>
+               <i class="fas fa-plus "></i>
+             </div>
+            </div>
+           </div>
+        </div>
+        <div class="swiper-slide  ">
+          <div class="item bg-white  p-2  ">
+            <div class="icons d-flex justify-content-between ">
+             <div class="offer-num">
+               <span>50% off</span>
+             </div>
+             <div class="view">
+               
+               <i class="fas fa-eye"></i> <br>
+               <i class="far fa-heart"></i>
+             </div>
+            </div>
+         
+            <img src="photo/flash-1.png" alt="">
+            <div class="text">
+             <h5>Smart Watch Black</h5>
+             <div class="star flex">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="far fa-star"></i>
+             </div>
+             <div class="price d-flex justify-content-between">
+               <p><span>$110.00</span>  <label> $250.00</label></p>
+               <i class="fas fa-plus "></i>
+             </div>
+            </div>
+           </div>
+        </div>
+        <div class="swiper-slide  ">
+          <div class="item bg-white  p-2  ">
+            <div class="icons d-flex justify-content-between ">
+             <div class="offer-num">
+               <span>50% off</span>
+             </div>
+             <div class="view">
+               
+               <i class="fas fa-eye"></i> <br>
+               <i class="far fa-heart"></i>
+             </div>
+            </div>
+         
+            <img src="photo/flash-2.png" alt="">
+            <div class="text">
+             <h5>Smart Watch Black</h5>
+             <div class="star flex">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="far fa-star"></i>
+             </div>
+             <div class="price d-flex justify-content-between">
+               <p><span>$110.00</span>  <label> $250.00</label></p>
+               <i class="fas fa-plus "></i>
+             </div>
+            </div>
+           </div>
+        </div>
+        <div class="swiper-slide  ">
+          <div class="item bg-white  p-2  ">
+            <div class="icons d-flex justify-content-between ">
+             <div class="offer-num">
+               <span>50% off</span>
+             </div>
+             <div class="view">
+               
+               <i class="fas fa-eye"></i> <br>
+               <i class="far fa-heart"></i>
+             </div>
+            </div>
+         
+            <img src="photo/flash-3.png" alt="">
+            <div class="text">
+             <h5>Smart Watch Black</h5>
+             <div class="star flex">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="far fa-star"></i>
+             </div>
+             <div class="price d-flex justify-content-between">
+               <p><span>$110.00</span>  <label> $250.00</label></p>
+               <i class="fas fa-plus "></i>
+             </div>
+            </div>
+           </div>
+        </div>
+        <div class="swiper-slide  ">
+          <div class="item bg-white  p-2  ">
+            <div class="icons d-flex justify-content-between ">
+             <div class="offer-num">
+               <span>50% off</span>
+             </div>
+             <div class="view">
+               
+               <i class="fas fa-eye"></i> <br>
+               <i class="far fa-heart"></i>
+             </div>
+            </div>
+         
+            <img src="photo/flash-4.png" alt="">
+            <div class="text">
+             <h5>Smart Watch Black</h5>
+             <div class="star flex">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="far fa-star"></i>
+             </div>
+             <div class="price d-flex justify-content-between">
+               <p><span>$110.00</span>  <label> $250.00</label></p>
+               <i class="fas fa-plus "></i>
+             </div>
+            </div>
+           </div>
+        </div>
+       
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  
+
+      
+    
+    </div>
+  </section>
+
+
+
+
+
+  <section class="newsletter text-center my-5">
+    <div class="container m-auto ">
+
+      <i class="far fa-paper-plane"></i>
+      <h2>Subscribe To Our Newsletter</h2>
+      <p>and receive $20 coupon for the first Shopping</p>
+
+      <div class="input-data bg-white w-75 m-auto  d-flex justify-content-between">
+        <input type="text " placeholder="Enter your e-mail">
+        <button>Subscribe</button>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="bg-primary mt-5 pt-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="item">
+            <div class="logo">
+              <h2>Bonik</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item">
+            <h3>About Us</h3>
+            <ul>
+              <li>Careers</li>
+              <li>Our Stores</li>
+              <li>Our Cares</li>
+              <li>Terms & Conditions</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="item">
+            <h3>Customer Care</h3>
+            <ul>
+              <li> Help Center</li>
+              <li>How to Buy</li>
+              <li> Track Your Order</li>
+              <li> Corporate & Bulk Purchasing</li>
+              <li> Returns & Refunds</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>70 Washington Square South, New York, NY 10012, United States</li>
+              <li>Email: uilib.help@gmail.com</li>
+              <li>Phone: +1 1123 456 780</li>
+            </ul>
+            <div class="icon flex">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+              <i class="fab fa-google"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- OwlCarouse js 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+ OwlCarouse js -->
+
+
+
+
+  <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
